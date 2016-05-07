@@ -12,6 +12,8 @@ You can give data to component like this:
       {'id': 'cellid'}
     ]
   }
+
+  <Layout data={data} />
 ```
 
 You will get like this:

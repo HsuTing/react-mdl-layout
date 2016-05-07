@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import Null from 'null';
+import Null from 'react-null';
 
 export default class Layout extends React.Component {
   render() {
