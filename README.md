@@ -35,5 +35,7 @@ You can also add a component in objects of `cells`, like this:
   ]
 ```
 
+This layout is using [this](https://getmdl.io/components/index.html#layout-section/grid) to layout your website. As a reuslt, you need to set `desktop`, `tablet` and `phone` to layout in different size of website.
+
 - data can have `id`, `class`, `style` and `cells`
-- objects in `cells` can also have `id`, `class`, `style`. A react component can give to `component` and use `data` to give this component `props`.
+- objects in `cells` can also have `id`, `class`, `style` and `desktop`, `tablet`, `phone`. A react component can give to `component` and use `data` to give this component `props`.

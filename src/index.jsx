@@ -22,7 +22,7 @@ export default class Layout extends React.Component {
         {cells.map((d, i) => {
           let cellId = d.id === undefined ? "" : d.id;
           let cellClass = "mdl-cell";
-          cellClass += d.desktop === undefined ? " mdl-cell--hide-desktop" : " mdl-cell--"+d.deskop+"-col";
+          cellClass += d.desktop === undefined ? " mdl-cell--hide-desktop" : " mdl-cell--"+d.desktop+"-col";
           cellClass += d.tablet === undefined ? " mdl-cell--hide-tablet" : " mdl-cell--"+d.tablet+"-col-tablet";
           cellClass += d.phone === undefined ? " mdl-cell--hide-phone" : " mdl-cell--"+d.phone+"-col-phone";
           cellClass += d.class === undefined ? "" : " "+d.class;
