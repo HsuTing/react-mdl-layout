@@ -1,6 +1,6 @@
 {
   "name": "react-mdl-layout",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "layout",
   "main": "./lib/index.js",
   "scripts": {

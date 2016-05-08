@@ -27,7 +27,7 @@ export default class Layout extends React.Component {
           cellClass += d.phone === undefined ? " mdl-cell--hide-phone" : " mdl-cell--"+d.phone+"-col-phone";
           cellClass += d.class === undefined ? "" : " "+d.class;
           let cellStyle = d.style === undefined ? {} : d.style;
-          let ChildNode = d.child === undefined ? Null : d.child;
+          let Component = d.component === undefined ? Null : d.component;
           let data = d.data === undefined ? {} : d.data;
 
           return (
@@ -36,7 +36,7 @@ export default class Layout extends React.Component {
                  className={ cellClass }
                  style={ cellStyle }
             >
-              <ChildNode data={ data } />
+              <Component data={ data } />
             </div>
           );
         })}

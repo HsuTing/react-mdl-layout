@@ -9,7 +9,7 @@ You can give data to component like this:
     'class': 'gridClass',
     'style': {},
     'cells': [
-      {'id': 'cellid'}
+      {'id': 'cellId'}
     ]
   }
 
@@ -18,9 +18,24 @@ You can give data to component like this:
 
 You will get like this:
 ```
-<div data-reactroot="" data-reactid="1" data-react-checksum="826285998">
-  <div id="gridId" class="mdl-grid gridClass" data-reactid="2">
-    <div id="cellID" class="mdl-cell mdl-cell--hide-desktop mdl-cell--hide-tablet mdl-cell--hide-phone" data-reactid="3"></div>
+<div>
+  <div id="gridId" class="mdl-grid gridClass">
+    <div id="cellId" class="mdl-cell mdl-cell--hide-desktop mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
   </div>
 </div>
 ```
+
+You can also add a component in objects of component, like this:
+```
+  import YourComponent from 'your/path/to/component';
+
+  'cells' [
+    {
+      'id': 'id',
+      'component': 'YourComponent'
+    }
+  ]
+```
+
+- data can have `id`, `class`, `style` and `cells`
+- objects in `cells` can also have `id`, `class`, `style`. A react component can give to `component` and use `data` to give this component `props`.
