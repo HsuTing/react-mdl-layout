@@ -6,6 +6,8 @@ import Null from 'react-null';
 
 export default class Layout extends React.Component {
   render() {
+    if(this.props.data === undefined) return null;
+
     let gridId = this.props.data.id === undefined ? "" : this.props.data.id;
     let gridClass = this.props.data.noSpacing ? "mdl-grid mdl-grid--no-spacing" : "mdl-grid";
     gridClass += this.props.data.class === undefined ? "" : " "+this.props.data.class;
