@@ -1,4 +1,4 @@
-# React mdl Layout
+# React MDL Layout
 
 ## Props
 
@@ -18,14 +18,12 @@ You can give data to component like this:
 
 You will get like this:
 ```
-<div>
   <div id="gridId" class="mdl-grid gridClass">
     <div id="cellId" class="mdl-cell mdl-cell--hide-desktop mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
   </div>
-</div>
 ```
 
-You can also add a component in objects of component, like this:
+You can also add a component in objects of `cells`, like this:
 ```
   import YourComponent from 'your/path/to/component';
 
