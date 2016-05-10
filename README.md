@@ -74,12 +74,12 @@ This project is combined `react` and layout of `material design lite`. I use rea
 
 // It will render a html in mdl-grid
   <div id="cellId" class="mdl-cell mdl-cell--hide-desktop mdl-cell--hide-tablet mdl-cell--hide-phone cellClass" style="color: white;">
-    // Here is related to your component to render.
-    // Your component is need to be a react class
-    // Data will be used as `props` in your component.
+    // Here is related to your component to render
+    // Your component is needed to be a react class
+    // `data` will be used as `props` in your component
   </div>
 ```
-- Here also use attributes needs.
+- Here also use attributes needed.
 - You can set `desktop`, `tablet` and `phone` in `data.cells` to set layout.
     - `desktop` is between 1 to 12.
     - `tablet` is between 1 to 8.
