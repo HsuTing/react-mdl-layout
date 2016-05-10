@@ -1,6 +1,6 @@
 # React MDL Layout
 
-This project is combined `react` and layout of `material design lite`.
+This project is combined `react` and layout of `material design lite`. I use react to do [this](https://getmdl.io/components/index.html#layout-section/grid).
 
 ## Include file
 
@@ -56,7 +56,7 @@ This project is combined `react` and layout of `material design lite`.
 // It will render a html like this
   <div id="gridId" class="mdl-grid gridClass" style="color: black;"></div>
 ```
-- you not need to set all `id`, `class`, `style` and `cells`. You jsut use attributes needed.
+- you not need to set all `id`, `class`, `style` and `cells`. You just use attributes needed.
 
 - `data.cells` in `data`:
 ```
